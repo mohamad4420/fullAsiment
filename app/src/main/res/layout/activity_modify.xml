@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".modify"
+    android:background="@color/mycolor"
+    >
+
+    <RadioGroup
+        android:id="@+id/sexmodfi"
+        android:layout_width="404dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="192dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="89dp"
+            android:layout_height="42dp"
+            android:layout_weight="1"
+            android:text=" change sex"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/male1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/female2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Female" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="3dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="2dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="257dp"
+        android:layout_marginEnd="6dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="201dp"
+        android:layout_height="82dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="422dp"
+        android:text=" change CommissionRate"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="338dp"
+        android:text=" change TotalSales"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="171dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="258dp"
+        android:text=" change BaseSalary"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="151dp"
+        android:layout_height="29dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="127dp"
+        android:text="change name"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="345dp"
+        android:layout_marginEnd="-6dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="248dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginBottom="101dp"
+        android:text="change" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="38dp"
+        android:text="change id"
+        android:textSize="24sp" />
+
+</RelativeLayout>
